@@ -1184,6 +1184,13 @@ main {
   border-radius: 14px;
   outline: none;
 }
+.project-img img {
+  width: 100%;           /* makes the image fill its container */
+  height: 150px;         /* set a fixed height */
+  object-fit: cover;     /* ensures image scales nicely without distortion */
+  border-radius: 10px;   /* optional: adds rounded corners for consistency */
+}
+
 
 .form-input::placeholder { font-weight: var(--fw-500); }
 
