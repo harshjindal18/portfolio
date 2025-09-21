@@ -18,7 +18,8 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 
    <!-- Font Awesome CDN for icons -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
 
   <!--
     - google font link
@@ -187,12 +188,14 @@
           </li>
 
           <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li> 
+
+          <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Project</button>
           </li>
-<!-- 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li> -->
+
+          
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
@@ -723,13 +726,14 @@
 <section class="skills" id="skills">
   <h2 class="section-title">My Skills</h2>
   <ul class="skills-list">
-    <li>Programming Languages: Python, Java, C++, JavaScript</li>
-    <li>Frameworks & Libraries: Flask, TensorFlow, OpenCV, LangChain, Node.js, Express.js, React.js, Next.js</li>
-    <li>Databases & Cloud: PostgreSQL, MySQL, Pinecone, AWS EC2, S3, RDS, Lambda, ECR</li>
-    <li>DevOps & Tools: Docker, Kubernetes, GitHub Actions, Git, Linux</li>
-    <li>APIs & Platforms: Google Gemini API, Clerk, Vercel</li>
+    <li><strong>Programming Languages:</strong> Python, Java, C++, JavaScript</li>
+    <li><strong>Frameworks & Libraries:</strong> Flask, TensorFlow, OpenCV, LangChain, Node.js, Express.js, React.js, Next.js</li>
+    <li><strong>Databases & Cloud:</strong> PostgreSQL, MySQL, Pinecone, AWS EC2, S3, RDS, Lambda, ECR</li>
+    <li><strong>DevOps & Tools:</strong> Docker, Kubernetes, GitHub Actions, Git, Linux</li>
+    <li><strong>APIs & Platforms:</strong> Google Gemini API, Clerk, Vercel</li>
   </ul>
 </section>
+
 
 
               <section class="resume-download">
@@ -1071,190 +1075,76 @@
       <!-- 
         - #BLOG
       -->
+<article class="skills" data-page="skills">
+
+  <header>
+    <h2 class="h2 article-title">Skills</h2>
+  </header>
+
+  <section class="skills-grid">
+
+    <div class="skill-item">
+      <i class="devicon-python-plain colored"></i>
+      <p>Python</p>
+    </div>
+
+    <div class="skill-item">
+      <i class="devicon-java-plain colored"></i>
+      <p>Java</p>
+    </div>
+
+    <div class="skill-item">
+      <i class="devicon-cplusplus-plain colored"></i>
+      <p>C++</p>
+    </div>
+
+    <div class="skill-item">
+      <i class="devicon-javascript-plain colored"></i>
+      <p>JavaScript</p>
+    </div>
+
+    <div class="skill-item">
+      <i class="devicon-react-original colored"></i>
+      <p>React.js</p>
+    </div>
+
+    <div class="skill-item">
+      <i class="devicon-nodejs-plain colored"></i>
+      <p>Node.js</p>
+    </div>
+
+    <div class="skill-item">
+      <i class="devicon-express-original colored"></i>
+      <p>Express.js</p>
+    </div>
+
+  <div class="skill-item">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" width="55">
+  <p>Next.js</p>
+</div>
+
+    <div class="skill-item">
+      <i class="devicon-docker-plain colored"></i>
+      <p>Docker</p>
+    </div>
+
+    <div class="skill-item">
+      <i class="devicon-kubernetes-plain colored"></i>
+      <p>Kubernetes</p>
+    </div>
+
+   <div class="skill-item">
+  <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+  <p>AWS</p>
+</div>
+    <div class="skill-item">
+      <i class="devicon-azure-plain colored"></i>
+      <p>Azure</p>
+    </div>
+
+  </section>
+</article>
 
-      <!-- <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article> -->
 
 
 
